@@ -1,12 +1,22 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  standalone: true,
+  imports: [RouterModule], // RouterModule importieren
+  template: `
+    <header>
+      <h1>Instagram Clone</h1>
+      <nav>
+        <a routerLink="/" routerLinkActive="active" ariaCurrentWhenActive="page">Main Page</a>
+        <a routerLink="/contact" routerLinkActive="active" ariaCurrentWhenActive="page">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <router-outlet></router-outlet>
+    </main>
+  `,
+  styleUrls: ['./app.component.scss'],
 })
-export class AppComponent {
-  title = 'Instagram';
-}
+export class AppComponent {}

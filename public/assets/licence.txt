@@ -1,0 +1,10 @@
+das credits array kann in die main-page komponente um es später anzuzeigen
+
+
+credits = [
+    'Bild von <a href="https://pixabay.com/de/users/leducduy-43393114/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8719086">Duy Le Duc</a> auf <a href="https://pixabay.com/de//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8719086">Pixabay</a>',
+    'Bild von <a href="https://pixabay.com/de/users/stocksnap-894430/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2595941">StockSnap</a> auf <a href="https://pixabay.com/de//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2595941">Pixabay</a>',
+    '<a target="_blank" href="https://icons8.com/icon/91bkms-3ZkoF/schwarzes-herz">schwarzes Herz</a> Icon von <a target="_blank" href="https://icons8.com">Icons8</a>',
+    '<a target="_blank" href="https://icons8.com/icon/uG-gOKWvvi8T/rotes-herz">rotes Herz</a> Icon von <a target="_blank" href="https://icons8.com">Icons8</a>',
+    'Bild von <a href="https://pixabay.com/de/users/pezibear-526143/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8268266">Petra</a> auf <a href="https://pixabay.com/de//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8268266">Pixabay</a>',
+  ]
